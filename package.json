@@ -1,5 +1,5 @@
 {
-  "name": "subhashis-portfolio",
+  "name": "My-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,7 +21,8 @@
     "react-router-hash-link": "^2.4.3",
     "react-tilt": "^1.0.2",
     "react-tsparticles": "^2.12.2",
-    "styled-components": "^6.1.8"
+    "styled-components": "^6.1.8",
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
