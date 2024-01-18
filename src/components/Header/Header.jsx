@@ -33,13 +33,10 @@ export function Header() {
 
         <nav className={isActive ? 'active' : ''}>
           {navLinks.map((link)=>(
-            <NavHashLink smooth to="#{link.id}" onClick={closeMenu} >
+            <NavHashLink smooth to={`#${link.id}`} onClick={closeMenu} >
               <span className='font-bold'>{link.title}</span>
             </NavHashLink>
           ))}
-          {/* <a href="" download className="button">
-            CV 
-          </a> */}
         </nav>
 
         <div

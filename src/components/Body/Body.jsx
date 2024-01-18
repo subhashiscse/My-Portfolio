@@ -4,7 +4,7 @@ import { Container } from "./styles"
 import { Hero } from "../Hero/Hero.jsx"
 // import { About } from "../About/About";
 // import { Contact } from "../Contact/Contact";
-import { Project } from "../Project/Project";
+import { Project } from "../Project/Project.jsx";
 
 
 
@@ -255,7 +255,7 @@ class Body extends Component {
                     }}
                 />
                 <Hero/>
-                {/* <Project/> */}
+                <Project/>
             </Container>
         );
     }

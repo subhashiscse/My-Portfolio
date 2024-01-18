@@ -1,7 +1,5 @@
 import { styles } from "../../styles.js";
 import subhashis from "../../assets/subhashis.png";
-import { NavHashLink } from "react-router-hash-link"
-import { BrowserRouter } from "react-router-dom"
 
 
 export function Hero() {
