@@ -256,9 +256,6 @@ class Body extends Component {
                 />
                 <Hero/>
                 {/* <Project/> */}
-                {/* <About></About>
-                <Project></Project>
-                <Contact></Contact> */}
             </Container>
         );
     }
