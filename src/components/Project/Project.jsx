@@ -25,7 +25,7 @@ const SingleProject = ({ project }) => (
 export function Project() {
   return (
     <Container id="project">
-      <h2>My Projects</h2>
+      <h2 className='font-bold'>My Projects</h2>
       <div className="projects">
           {projects.map((project, index) => (
             <SingleProject key={index} project={project} />

@@ -18,13 +18,17 @@ export const Container = styled.section`
     .education-roundedimg {
       object-fit: cover;
       margin-right: 2rem;
-      width: 6rem;
-      height: 6rem;
+      width: 10rem;
+      height: 10rem;
       box-shadow: 0 0.5rem 1rem rgba(0,0,0,.3);
       border-radius: 50%;
     }
   }
   .education-card-right {
     max-width: 70%;
+  }
+  .education-subject-section{
+    font-weight: 800;
+    font-size: 20px;
   }
 `
