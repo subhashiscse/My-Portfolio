@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Particles from "react-tsparticles"
 import { Container } from "./styles"
-import { Hero } from "../Hero/Hero.jsx"
+import { About } from "../About/About.jsx"
 import { Project } from "../Project/Project.jsx";
 import { Education } from "../Education/Education.jsx";
+import { Skill } from "../Skill/Skill.jsx";
 
 
 
@@ -253,9 +254,10 @@ class Body extends Component {
                     }
                     }}
                 />
-                <Hero/>
-                <Project/>
+                <About/>
+                <Skill/>
                 <Education/>
+                <Project/>
             </Container>
         );
     }

@@ -2,7 +2,7 @@ import { styles } from "../../styles.js";
 import subhashis from "../../assets/subhashis.png";
 
 
-export function Hero() {
+export function About() {
   const isActive = false;
   return (
     <section className={`relative w-full h-screen`}>

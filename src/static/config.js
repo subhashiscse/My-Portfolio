@@ -4,7 +4,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "skills",
+    id: "skill",
     title: "Skills",
   },
   {
@@ -13,10 +13,10 @@ export const navLinks = [
   },
   {
     id: "project",
-    title: "Work",
+    title: "Projects",
   },
   {
-    id: "achievements",
+    id: "achievement",
     title: "Achievements",
   },
   {
