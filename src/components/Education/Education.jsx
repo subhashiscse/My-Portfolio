@@ -17,7 +17,7 @@ export function Education() {
                     Islamic University, Bangladesh
                 </p>
                 <h4 className='education-subject-section'>
-                    Masters of Science in Computer Science and Engineering
+                    Master of Science in Computer Science and Engineering
                 </h4>
                 <h5 className="">
                     November 2020 - August 2022
