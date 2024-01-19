@@ -74,7 +74,7 @@ export function Form() {
           field="message"
           errors={state.errors}
         />
-        <button class="bg-primary-500 hover:bg-pink-700 text-white font-bold px-4 rounded-full"
+        <button class="bg-primary-500 hover:bg-blue-700 text-white font-bold px-4 rounded-full"
           variant="contained"
           disabled={state.submitting}
         >

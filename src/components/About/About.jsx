@@ -15,7 +15,7 @@ export function About() {
                 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                     Full Stack Software Engineer
                     <div className="flex w-max gap-4 mt-8">
-                      <button class="bg-primary-500 hover:bg-pink-700 text-white font-bold px-4 rounded-full">Contact
+                      <button class="bg-primary-500 hover:bg-blue-600 text-white font-bold px-4 rounded-full">Contact
                       </button>
                     </div>
                 </p>
