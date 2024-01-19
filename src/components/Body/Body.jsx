@@ -5,6 +5,7 @@ import { About } from "../About/About.jsx"
 import { Project } from "../Project/Project.jsx";
 import { Education } from "../Education/Education.jsx";
 import { Skill } from "../Skill/Skill.jsx";
+import { Contact } from "../Contact/Contact.jsx";
 
 
 
@@ -258,6 +259,7 @@ class Body extends Component {
                 <Skill/>
                 <Education/>
                 <Project/>
+                <Contact/>
             </Container>
         );
     }
