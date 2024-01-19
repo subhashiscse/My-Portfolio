@@ -6,9 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import bipro from "./bipro.jpg";
-import arif from  './arif.jpeg';
-import ratul from './ratul.jpeg';
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -32,6 +29,7 @@ import taskAi from './task-ai.png';
 import chronSwiss from './chron-swiss.png';
 import ebookStore from './ebook-store.png';
 import subhashispro from './subhashispro.png';
+import islamicuniversity from './Education/islamicuniversity.png';
 
 export {
   logo,
@@ -67,5 +65,6 @@ export {
   taskAi,
   chronSwiss,
   ebookStore,
-  subhashispro
+  subhashispro,
+  islamicuniversity
 };
