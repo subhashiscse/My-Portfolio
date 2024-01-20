@@ -20,7 +20,7 @@ export const Container = styled.header`
   nav{
     display: flex;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1rem;
     a{
       color: #FFFF;
       padding: 0.6rem;

@@ -19,7 +19,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span className='font-bold'>Subhashis Mollick</span>
+          <span className='font-bold'>Subhashis</span>
         </HashLink>
 
         <input

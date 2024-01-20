@@ -6,6 +6,8 @@ import { Project } from "../Project/Project.jsx";
 import { Education } from "../Education/Education.jsx";
 import { Skill } from "../Skill/Skill.jsx";
 import { Contact } from "../Contact/Contact.jsx";
+import { Experience } from "../Experience/Experience.jsx";
+import { Achievement } from "../Achievement/Achievement.jsx";
 
 
 
@@ -259,6 +261,8 @@ class Body extends Component {
                 <Skill/>
                 <Education/>
                 <Project/>
+                <Experience/>
+                <Achievement/>
                 <Contact/>
             </Container>
         );
