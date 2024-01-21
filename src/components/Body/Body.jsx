@@ -8,20 +8,8 @@ import { Skill } from "../Skill/Skill.jsx";
 import { Contact } from "../Contact/Contact.jsx";
 import { Experience } from "../Experience/Experience.jsx";
 import { Achievement } from "../Achievement/Achievement.jsx";
+import { ProblemSolving } from "../ProblemSolving/ProblemSolving.jsx";
 
-
-
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 class Body extends Component {
     render() {
         return (
@@ -154,69 +142,6 @@ class Body extends Component {
                             "value": "*",
                             "weight": "400"
                         },
-                        "image": [
-                            {
-                            "src": boostrapIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": cssIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": wordpress,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": shopify,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": htmlIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": jsIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": nodeIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": reactIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": sassIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            {
-                            "src": typescriptIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-                            // {
-                            //   "src": vscodeIcon,
-                            //   "width": 20,
-                            //   "height": 20
-                            // },
-                            {
-                            "src": vueIcon,
-                            "width": 20,
-                            "height": 20
-                            },
-
-                        ],
                         "polygon": {
                             "sides": 5
                         },
@@ -263,6 +188,7 @@ class Body extends Component {
                 <Project/>
                 <Experience/>
                 <Achievement/>
+                <ProblemSolving/>
                 <Contact/>
             </Container>
         );

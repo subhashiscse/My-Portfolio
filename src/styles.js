@@ -18,7 +18,7 @@ const styles = {
   export const Container = styled.main`
   position: relative;
   z-index: 0;
-  padding: 0 10rem;
+  padding: 0 4rem;
   overflow-x: hidden;
   #tsparticles{
     position: absolute;

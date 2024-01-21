@@ -10,7 +10,7 @@ export function Education() {
         <h2 className='font-bold'>Education</h2>
         <div className="flex mb-16">
             <div className="education-card-left h-24">
-                <img crossorigin="anonymous" class="education-roundedimg" src={islamicuniversity} alt="Shahjalal University of Science and Technology"/>
+                <img crossorigin="anonymous" class="education-roundedimg" src={islamicuniversity} alt="Islamic University"/>
             </div>
             <div className='education-card-right'>
                 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
@@ -26,7 +26,7 @@ export function Education() {
         </div>
         <div className="flex">
             <div className="education-card-left h-24">
-                <img crossorigin="anonymous" class="education-roundedimg" src={islamicuniversity} alt="Shahjalal University of Science and Technology"/>
+                <img crossorigin="anonymous" class="education-roundedimg" src={islamicuniversity} alt="Islamic University"/>
             </div>
             <div className='education-card-right'>
                 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
