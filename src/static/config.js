@@ -131,7 +131,8 @@ export const programmingAchievements = [
     ImageUrl: codeforces,
     ProblemSolveCount: "2300+",
     CodingTitle: "Max 1596",
-    Description: "1"
+    Description: "1",
+    ContestCount: "450+"
   },
   {
     Serial: 2,
@@ -139,23 +140,26 @@ export const programmingAchievements = [
     ImageUrl: leetcode,
     ProblemSolveCount: "1000+",
     CodingTitle: "Max 1788",
-    Description: "2"
+    Description: "2",
+    ContestCount: ""
   },
   {
     Serial: 3,
     JudgeName: "Codechef",
     ImageUrl: codechef,
     ProblemSolveCount: 0,
-    CodingTitle: "Max 1596",
-    Description: "3"
+    CodingTitle: "Max 1707",
+    Description: "3",
+    ContestCount: "170+"
   },
   {
     Serial: 4,
     JudgeName: "Toph",
     ImageUrl: toph,
-    ProblemSolveCount: 0,
+    ProblemSolveCount: 474,
     CodingTitle: "Max 1596",
-    Description: "4"
+    Description: "4",
+    ContestCount: ""
   }
 ];
 export default {navLinks,projects,experiences,achievements,programmingAchievements};

@@ -28,6 +28,19 @@ const styles = {
     height: 100%;
     z-index: -1;
   }
+  .social-media{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top:5rem;
+    padding-left:1rem;
+
+    img,span{
+      font-size: 3rem;
+      width: 3.5rem;
+    }
+  }
 
   @media (max-width: 740px){
     padding: 0 4rem;

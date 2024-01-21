@@ -8,7 +8,7 @@ const SingleAchievement = ({ achievement }) => (
       <p className="font-bold text-[#23ce6b] text-3xl">{achievement.Title}</p>
     </header>
     <div className="body">
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-8">
         <img className="rounded-full achievement-image" src={achievement.ImageUrl} alt={achievement.Title}/>
       </div>
       <p>{achievement.Description}</p>
