@@ -2,7 +2,9 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import { navLinks} from '../../static/config.js' 
+import { navLinks} from '../../static/config.js';
+import CV from '../../assets/CV.pdf' 
+
 export function Header() {
   const [isActive, setActive] = useState(false)
 
@@ -37,6 +39,9 @@ export function Header() {
               <span className='font-bold'>{link.title}</span>
             </NavHashLink>
           ))}
+          <a href={CV} download className="button">
+            CV 
+          </a>
         </nav>
 
         <div

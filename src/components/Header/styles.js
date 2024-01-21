@@ -23,7 +23,7 @@ export const Container = styled.header`
     gap: 1rem;
     a{
       color: #FFFF;
-      padding: 0.6rem;
+      padding: 0.2rem;
       font-family: 'Red Hat Display', sans-serif;
       font-weight: 500;
       text-transform: uppercase;

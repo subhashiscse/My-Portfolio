@@ -2,9 +2,10 @@ import { styles } from "../../styles.js";
 import { Container } from "./styles"
 import subhashis from "../../assets/subhashis.png";
 import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
+import github from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import telegram from '../../assets/telegram.svg'
+import email from '../../assets/email.svg'
 
 export function About() {
   const isActive = false;
@@ -31,6 +32,31 @@ export function About() {
                           target="_blank"
                           rel="noreferrer">
                           <img src={linkedin} alt="Linkedin"/>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/subhashis-mollick/"
+                          target="_blank"
+                          rel="noreferrer">
+                          <img src={whatsapp} alt="whatsapp"/>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/subhashis-mollick/"
+                          target="_blank"
+                          rel="noreferrer">
+                          <img src={github} alt="github"/>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/subhashis-mollick/"
+                          target="_blank"
+                          rel="noreferrer">
+                          <img src={telegram} alt="telegram"/>
+                        </a>
+                        <a 
+                          href="mailto:smollickcseiu@gmail.com" 
+                          class="icon-button google" 
+                          target="_blank" 
+                          rel="noopener noreferrer" title="Gmail">
+                          <img src={email} alt="email"/>
                         </a>
                       </div>
                   </p>

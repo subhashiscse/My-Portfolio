@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import emailIcon from "../../assets/email-icon.svg";
+import email from "../../assets/email.svg";
 import { Form } from "../Form/Form";
 
 
@@ -14,7 +14,7 @@ export function Contact(){
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:smollickcseiu@gmail.com"><img src={emailIcon} alt="Email"/></a> 
+        <a href="mailto:smollickcseiu@gmail.com"><img src={email} alt="Email"/></a> 
           <a href="mailto:smollickcseiu@gmail.com">smollickcseiu@gmail.com</a>
         </div> 
       </div>
