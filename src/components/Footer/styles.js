@@ -24,17 +24,6 @@ export const Container = styled.footer`
       animation: spinning 5s infinite linear;
     }
   }
-  .social-media{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-
-    img,span{
-      font-size: 3rem;
-      width: 3rem;
-    }
-  }
 
 
   @keyframes spinning {
@@ -45,7 +34,19 @@ export const Container = styled.footer`
       transform: rotate(360deg);
     }
   }
+  .social-media{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top:2rem;
+    padding-left:1rem;
 
+    img,span{
+      font-size: 3rem;
+      width: 3.5rem;
+    }
+  }
   @media(max-width: 800px){
     padding: 4rem 10rem;
     flex-direction: column;

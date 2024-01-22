@@ -30,7 +30,6 @@ export const Container = styled.section`
       width: 50%;
       max-width: 30rem;
       gap: 2rem;
-      background-color: var(--green);
       border-radius: 1.4rem;
       padding: 1.6rem 2.8rem;
       transition: background-color 0.25s;
@@ -50,7 +49,17 @@ export const Container = styled.section`
     }
   }
 
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 
+    img,span{
+      font-size: 3rem;
+      width: 3rem;
+    }
+  }
   @media(max-width: 960px){
     .contacts{
       flex-direction: column;

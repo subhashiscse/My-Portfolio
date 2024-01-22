@@ -9,7 +9,6 @@ import telegram from '../../assets/telegram.svg'
 import email from '../../assets/email.png'
 
 export function About() {
-  const isActive = false;
   return (
     <Container>
       <section id="about" className={`relative w-full h-screen`}>

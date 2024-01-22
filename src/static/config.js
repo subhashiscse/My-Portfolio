@@ -129,10 +129,11 @@ export const programmingAchievements = [
     Serial: 1,
     JudgeName: "Codeforces",
     ImageUrl: codeforces,
-    ProblemSolveCount: "2300+",
+    ProblemSolveCount: "2400+",
     CodingTitle: "Max 1596",
     Description: "1",
-    ContestCount: "450+"
+    ContestCount: "450+",
+    ProfileLink: "https://codeforces.com/profile/Subhashis_CSE"
   },
   {
     Serial: 2,
@@ -141,25 +142,28 @@ export const programmingAchievements = [
     ProblemSolveCount: "1000+",
     CodingTitle: "Max 1788",
     Description: "2",
-    ContestCount: ""
+    ContestCount: "",
+    ProfileLink: "https://leetcode.com/subhashis_cse"
   },
   {
     Serial: 3,
     JudgeName: "Codechef",
     ImageUrl: codechef,
-    ProblemSolveCount: 0,
+    ProblemSolveCount: "230+",
     CodingTitle: "Max 1707",
     Description: "3",
-    ContestCount: "170+"
+    ContestCount: "170+",
+    ProfileLink: "https://www.codechef.com/users/subhashis_cse"
   },
   {
     Serial: 4,
     JudgeName: "Toph",
     ImageUrl: toph,
-    ProblemSolveCount: 474,
+    ProblemSolveCount: "470+",
     CodingTitle: "Max 1596",
     Description: "4",
-    ContestCount: ""
+    ContestCount: "",
+    ProfileLink: "https://toph.co/u/subhashis_cse"
   }
 ];
 export default {navLinks,projects,experiences,achievements,programmingAchievements};

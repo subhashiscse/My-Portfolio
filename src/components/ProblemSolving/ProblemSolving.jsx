@@ -1,11 +1,17 @@
 import { Container } from "./styles";
 import React from 'react';
-import { programmingAchievements } from '../../static/config.js'
+import { programmingAchievements } from '../../static/config.js';
+import externalLink from "../../assets/external-link.svg"
 
 const SingleAchievement = ({ achievement }) => (
   <div className="project">
     <header>
       <p className="font-bold text-[#23ce6b] text-3xl">{achievement.JudgeName}</p>
+      <div className="project-links">
+        <a href={achievement.ProfileLink} target="_blank" rel="noreferrer">
+          <img src={externalLink} alt="Visit site" />
+        </a>
+      </div>
     </header>
     <div className="body">
         <div className="flex justify-center mb-8">

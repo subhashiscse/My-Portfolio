@@ -1,8 +1,8 @@
 export function Footer() {
   return (
     <div className="text-center">
-      <p>
-        Developed By Subhashis Mollick
+      <p className="mt-20">
+        Thanks for visiting my profile
       </p>
     </div>
   )
