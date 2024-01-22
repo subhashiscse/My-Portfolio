@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import email from "../../assets/email.svg";
+import email from "../../assets/email.png";
 import { Form } from "../Form/Form";
 
 

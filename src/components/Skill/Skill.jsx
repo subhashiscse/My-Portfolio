@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from "./styles";
+import expert from '../../assets/expert.svg'
 
 const TechListComponent = ({ techList, category }) => {
     const techString = techList.join(', ')
@@ -30,8 +31,38 @@ export function Skill() {
                     <TechListComponent techList={devOps} category="Devops" />
                     <TechListComponent techList={cloud} category="Cloud" />
                     <TechListComponent techList={others} category="Others" />
+                    <div>
+                        <span className='text-3xl font-bold text-[#23ce6b]'>Expertise in:</span>
+                        <div className='skill'>
+                            <div className='image-and-span-container'>
+                                <img src={expert} alt="expert" />
+                                <p className='text text-3xl'>C, C++, C#, Java</p>
+                            </div>
+                            <div className='image-and-span-container'>
+                                <img src={expert} alt="expert" />
+                                <p className='text text-3xl'>Algorithmic Problem Solving (Solved 5000+ problems on various online platforms)</p>
+                            </div>
+                            <div className='image-and-span-container'>
+                                <img src={expert} alt="expert" />
+                                <p className='text text-3xl'>Data Strutures,Algorithms</p>
+                            </div>
+                            <div className='image-and-span-container'>
+                                <img src={expert} alt="expert" />
+                                <p className='text text-3xl'>.Net + Angular Developer</p>
+                            </div>
+                            <div className='image-and-span-container'>
+                                <img src={expert} alt="expert" />
+                                <p className='text text-3xl'>Spring Boot</p>
+                            </div>
+                            <div className='image-and-span-container'>
+                                <img src={expert} alt="expert" />
+                                <p className='text text-3xl'>Full Stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </Container>
     );
 }

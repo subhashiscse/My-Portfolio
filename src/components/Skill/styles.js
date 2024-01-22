@@ -25,4 +25,20 @@ export const Container = styled.section`
     font-size: 20px,
     color: blue;
   }
+  .skill{
+      img,span{
+      font-size: 3rem;
+      width: 3.5rem;
+    }
+  }
+  .image-and-span-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    margin-left: 10px;
+    font-size: 1.875rem !important; 
+  }
+  
 `

@@ -4,8 +4,9 @@ import subhashis from "../../assets/subhashis.png";
 import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
+import facebook from '../../assets/facebook.png'
 import telegram from '../../assets/telegram.svg'
-import email from '../../assets/email.svg'
+import email from '../../assets/email.png'
 
 export function About() {
   const isActive = false;
@@ -14,12 +15,12 @@ export function About() {
       <section id="about" className={`relative w-full h-screen`}>
           <div className={`absolute inset-0 top-[120px] ${styles.paddingX} flex items-center justify-between`}>
               <div>
-                  <h1 className={`font-weight: 700; ${styles.heroHeadText} ${isActive ? 'text-black' : 'text-white'}`}>Hi, I'm 
+                  <h1 className={`font-weight: 700; ${styles.heroHeadText} ${isActive ? 'text-black' : 'text-blue'}`}>Hi, I'm 
                         <p className='text-[#23ce6b]'>
                         Subhashis Mollick</p>
                   </h1> 
                   
-                  <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+                  <p className={`${styles.heroSubText} mt-2 text-blue-100`}>
                       Full Stack Software Engineer | Selise Digital Platforms
                       <p className="font-bold text-[#23ce6b]">3.5+ Years of Experience</p>
                       <div className="flex w-max gap-4 mt-8">
@@ -27,6 +28,13 @@ export function About() {
                         </button>
                       </div>
                       <div className="social-media">
+                        <a 
+                          href="mailto:smollickcseiu@gmail.com" 
+                          class="icon-button google" 
+                          target="_blank" 
+                          rel="noopener noreferrer" title="Gmail">
+                          <img src={email} alt="email"/>
+                        </a>
                         <a
                           href="https://www.linkedin.com/in/subhashis-mollick/"
                           target="_blank"
@@ -34,29 +42,28 @@ export function About() {
                           <img src={linkedin} alt="Linkedin"/>
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/subhashis-mollick/"
-                          target="_blank"
-                          rel="noreferrer">
-                          <img src={whatsapp} alt="whatsapp"/>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/in/subhashis-mollick/"
+                          href="https://github.com/subhashiscse"
                           target="_blank"
                           rel="noreferrer">
                           <img src={github} alt="github"/>
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/subhashis-mollick/"
+                          href="https://api.whatsapp.com/send/?phone=%2B8801705206077&text=Hello+Subhashis"
+                          target="_blank"
+                          rel="noreferrer">
+                          <img src={whatsapp} alt="whatsapp"/>
+                        </a>
+                        <a
+                          href="https://www.facebook.com/SubhashisMollick/"
+                          target="_blank"
+                          rel="noreferrer">
+                          <img src={facebook} alt="facebook"/>
+                        </a>
+                        <a
+                          href="https://t.me/Subhashis_Mollick"
                           target="_blank"
                           rel="noreferrer">
                           <img src={telegram} alt="telegram"/>
-                        </a>
-                        <a 
-                          href="mailto:smollickcseiu@gmail.com" 
-                          class="icon-button google" 
-                          target="_blank" 
-                          rel="noopener noreferrer" title="Gmail">
-                          <img src={email} alt="email"/>
                         </a>
                       </div>
                   </p>

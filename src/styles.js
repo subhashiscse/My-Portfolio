@@ -41,6 +41,9 @@ const styles = {
       width: 3.5rem;
     }
   }
+  .text-blue{
+    color: blue !important;
+  }
 
   @media (max-width: 740px){
     padding: 0 4rem;
