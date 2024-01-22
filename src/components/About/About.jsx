@@ -15,13 +15,13 @@ export function About() {
       <section id="about" className={`relative w-full h-screen`}>
           <div className={`absolute inset-0 top-[120px] ${styles.paddingX} flex items-center justify-between`}>
               <div>
-                  <h1 className={`font-weight: 700; ${styles.heroHeadText} ${isActive ? 'text-black' : 'text-blue'}`}>Hi, I'm 
+                  <h1 className={`font-weight: 700; ${styles.heroHeadText}`}>Hi, I'm 
                         <p className='text-[#23ce6b]'>
                         Subhashis Mollick</p>
                   </h1> 
                   
                   <p className={`${styles.heroSubText} mt-2 text-blue-100`}>
-                      Full Stack Software Engineer | Selise Digital Platforms
+                      <span>Full Stack Software Engineer | Selise Digital Platforms</span>
                       <p className="font-bold text-[#23ce6b]">3.5+ Years of Experience</p>
                       <div className="flex w-max gap-4 mt-8">
                         <button class="bg-primary-500 hover:bg-blue-600 text-white font-bold px-4 rounded-full"><a href="#contact">Contact</a>

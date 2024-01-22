@@ -37,7 +37,16 @@ export const GlobalStyle = createGlobalStyle`
           background-color: rgba(555,555,555,0);
         }
       }
-
+      #about{
+        span,h1{
+          color: var(--black);
+        }
+      }
+      #education{
+        p{
+          color: var(--black);
+        }
+      }
       footer.footer{
         transition: 0.5s;
         background-color: rgba(0,0,0,0.1);
