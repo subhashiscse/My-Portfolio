@@ -115,7 +115,7 @@ export const achievements = [
     Serial: 5,
     Title: "ACM ICPC Contestnat",
     ImageUrl: icpc,
-    Description: "Qualified the prestigious ACM ICPC Dhaka Regional Contest 2017,2018 & 2019 and NCPC-2020 & 15+ national contests.Resulted in improved accessibility and efficient maintenance of teacher, student, and staff details, student management, department maintenance, class routine, and student attendance.",
+    Description: "Qualified the prestigious ACM ICPC Dhaka Regional Contest 2017,2018 & 2019 and NCPC-2020 & 15+ national contests.",
   },
   {
     Serial: 6,
