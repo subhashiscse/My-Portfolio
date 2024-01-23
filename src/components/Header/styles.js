@@ -30,7 +30,7 @@ export const Container = styled.header`
       transition: filter 0.25s;
 
       &.button{
-        padding: 0.6rem 5rem;
+        padding: 0.4rem 2rem;
       }
 
       &:hover{
@@ -150,7 +150,7 @@ export const Container = styled.header`
     transform: translateX(-100%);
   }
 
-  @media (max-width: 1400px){
+  @media (max-width: 1300px){
     padding: 1.8rem 3rem;
 
     .menu{
