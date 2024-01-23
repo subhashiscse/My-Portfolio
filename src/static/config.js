@@ -70,19 +70,20 @@ export const experiences = [
   {
     Serial: 1,
     ProjectName: "MoveIt",
-    Description: "Analyzes the performance of users participating in contests across various online judges and evaluates the performance metrics, providing valuable insights into their achievements and progress.", 
+    Description: "MoveIt is a Laboratory equipment and Office furniture placement and management system powered by Amberg Loglay. Its primary objective is the simple and effective placement of laboratory equipment in designated rooms. With user-friendly functions, organizations can easily place and manage laboratory devices, making MoveIt an essential tool for streamlined equipment organization and management.",
+    
     Responsiblity: "As a Full Stack Developer"
   },
   {
     Serial: 2,
-    ProjectName: "Logistics Insights Management (LIM)",
-    Description: "Enabled multiple members to engage in simultaneous conversations, fostering seamless interaction",
+    ProjectName: "Logistics Insights Management",
+    Description: "A comprehensive project management tool tailored for construction professionals, this application integrates Gantt charts for streamlined timeline planning, features a dynamic mapping system, and offers advanced cloud-based storage for secure collaboration. It enables effortless generation of detailed project reports, making it an invaluable asset for efficient project management and collaboration in the construction industry.", 
     Responsiblity: "As a Full Stack Developer"
   },
   {
     Serial: 3,
     ProjectName: "Mission Control Dashboard",
-    Description: "Resulted in improved accessibility and efficient maintenance of teacher, student, and staff details, student management, department maintenance, class routine, and student attendance.",
+    Description: "The logistics project focuses on optimizing supply chain efficiency through a robust dashboard.Offers intuitive visualization and data analytics, the project streamlines logistics processes, empowering decision-makers to optimize workflows and minimize delays.The ultimate goal is improved supply chain efficiency facilitated by a user-friendly and informative dashboard interface.",
     Responsiblity: "As a Full Stack Developer (Frontend Lead)"
   }
 ];
@@ -121,7 +122,7 @@ export const achievements = [
     Serial: 6,
     Title: "Achieved 1st,2nd,3rd position ",
     ImageUrl: departmentcontest,
-    Description: "Achieved 1st,2nd,3rd position in Inter and Intra Department Programming Contest of IU",
+    Description: "Achieved 1st,2nd,3rd position in Inter and Intra Department Programming Contest of IU.",
   }
 ];
 export const programmingAchievements = [
