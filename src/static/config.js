@@ -90,13 +90,13 @@ export const experiences = [
 export const achievements = [
   {
     Serial: 1,
-    Title: "Awarded as a Rising Star",
+    Title: "Awarded as a Rising Star in my product unit",
     ImageUrl: risingstar,
     Description: "Honored with the Rising Star award for exceptional contributions and outstanding performance within my unit at Selise. Recognized for dedication, innovation, and making a significant impact.",
   },
   {
     Serial: 2,
-    Title: "Certified as Microsoft AZ900",
+    Title: "Certified as Microsoft AZ900 Fundamentals",
     ImageUrl: microsoftaz900,
     Description: "Successfully achieved certification as a Microsoft AZ900 professional, demonstrating proficiency in Azure fundamentals and a solid understanding of cloud computing principles.",
   },
