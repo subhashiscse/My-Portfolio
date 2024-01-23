@@ -112,7 +112,11 @@ export const Container = styled.header`
     margin-left: auto;
     right: 10px;
   }
-
+  @media only screen and (max-width: 1024px) {
+    label {
+    position: relative;
+   }
+  }
   @media only screen and (max-width: 800px) {
     label {
     position: relative;
@@ -146,7 +150,7 @@ export const Container = styled.header`
     transform: translateX(-100%);
   }
 
-  @media (max-width: 960px){
+  @media (max-width: 1400px){
     padding: 1.8rem 3rem;
 
     .menu{

@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 import React from 'react';
-import { experiences } from '../../static/config.js' 
-import externalLink from "../../assets/external-link.svg"
+import { experiences } from '../../static/config.js'
 
 const SingleProject = ({ project }) => (
   <div className="project">
