@@ -33,6 +33,7 @@ export const Container = styled.section`
       border-radius: 1.4rem;
       padding: 1.6rem 2.8rem;
       transition: background-color 0.25s;
+      background: white;
       img{
         width: 4rem;
       }
@@ -48,13 +49,11 @@ export const Container = styled.section`
       }
     }
   }
-
   .social-media{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-
     img,span{
       font-size: 3rem;
       width: 3rem;

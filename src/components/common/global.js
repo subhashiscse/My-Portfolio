@@ -47,6 +47,11 @@ export const GlobalStyle = createGlobalStyle`
           color: var(--black);
         }
       }
+      #contact{
+        .social-media{
+          background-color: var(--black);
+        }
+      }
       footer.footer{
         transition: 0.5s;
         background-color: rgba(0,0,0,0.1);
