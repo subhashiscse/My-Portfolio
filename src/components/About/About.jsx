@@ -21,7 +21,7 @@ export function About() {
                   
                   <p className={`${styles.heroSubText} mt-2`}>
                       <span >Full Stack Software Engineer | Selise Digital Platforms</span>
-                      <p className="font-bold text-[#23ce6b]">3.5+ Years of Experience</p>
+                      <p className="font-bold text-[#23ce6b]">4+ Years of Experience</p>
                       <div className="flex w-max gap-4 mt-8">
                         <button class="bg-primary-500 hover:bg-blue-600 text-white font-bold px-4 rounded-full"><a href="#contact">Contact</a>
                         </button>
