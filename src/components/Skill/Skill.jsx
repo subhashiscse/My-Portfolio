@@ -16,10 +16,10 @@ const TechListComponent = ({ techList, category }) => {
 export function Skill() {
     const languages = ['C','C++', 'C#', 'Java', 'JavaScript', 'Typescript'];
     const frontend = ['HTML', 'CSS','Bootstrap','Angular','React'];
-    const backend = ['.Net', 'Spring Boot', 'Php','MongoDb','PostgreSQL', 'NoSQL','Cosmos DB'];
+    const backend = ['.Net', 'Spring Boot','NodeJs', 'Php','MongoDb','PostgreSQL', 'SQL','NoSQL','Cosmos DB'];
     const devOps = ['Git','Docker','Kubernetes','Github CI/CD','Linux'];
     const others = ['Data Stuctures','Algorithms','Problem Solving','OOP','Design Patterns','Azure Functions'];
-    const cloud = ['Microsoft Azure'];
+    const cloud = ['Microsoft Azure','AWS'];
     return (
         <Container id="skill">
             <h2 className='font-bold'>Skills</h2>
